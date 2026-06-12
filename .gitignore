@@ -16,3 +16,24 @@ desktop.ini
 .vscode/settings.json
 *.swp
 *~
+# WordPress secrets
+WordPress/wp-config.php
+
+# WordPress uploads and generated files
+WordPress/wp-content/uploads/
+WordPress/wp-content/cache/
+WordPress/wp-content/upgrade/
+WordPress/wp-content/backup*/
+WordPress/wp-content/backups/
+WordPress/wp-content/ai1wm-backups/
+WordPress/wp-content/debug.log
+
+# Local by Flywheel / local environment
+conf/
+logs/
+.claude/
+
+# OS/editor junk
+.DS_Store
+Thumbs.db
+.vscode/
