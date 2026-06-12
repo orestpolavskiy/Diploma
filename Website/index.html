@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BRANDED — Premium fashion brand. Curated collection of contemporary and luxury pieces." />
+  <title>BRANDED — Premium Fashion</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/tokens.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+
+  <a class="skip-to-content" href="#site-content">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container site-header__inner">
+
+      <a href="index.html" class="site-header__logo" aria-label="BRANDED — home">
+        <span class="site-header__logo-mark" aria-hidden="true"></span>
+        <span>FASHION</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="http://diploma.local/shop/" class="site-nav__link">Shop</a>
+        <a href="pages/about.html"   class="site-nav__link" aria-current="page">About</a>
+        <a href="pages/guides.html"  class="site-nav__link">Guides</a>
+        <a href="pages/contact.html" class="site-nav__link">Contact</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <button class="icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" stroke-linecap="round" />
+          </svg>
+        </button>
+        <a href="http://diploma.local/my-account/" class="icon-btn" aria-label="Account">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 21c0-4 4-7 8-7s8 3 8 7" stroke-linecap="round" />
+          </svg>
+        </a>
+        <a href="http://diploma.local/cart/" class="icon-btn" aria-label="Cart">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 7h14l-1.5 12a2 2 0 0 1-2 1.8h-7a2 2 0 0 1-2-1.8L5 7Z" stroke-linejoin="round" />
+            <path d="M9 7V5a3 3 0 1 1 6 0v2" stroke-linecap="round" />
+          </svg>
+        </a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="menu-toggle__bars" aria-hidden="true"></span>
+        </button>
+      </div>
+
+    </div>
+
+    <div class="promo-bar" role="note">
+      Free shipping on orders over €150 — Free returns within 30 days
+    </div>
+  </header>
+
+  <main id="site-content">
+    <section class="hero" aria-label="Brand introduction">
+      <div class="container">
+        <div class="hero__intro">
+          <h1 class="hero__title">Clothing Made to Last</h1>
+          <p class="hero__text">
+            A curated edit of contemporary pieces, designed in Vilnius and
+            crafted in small runs across European ateliers. Simple shapes,
+            honest materials, worn season after season.
+          </p>
+          <a href="http://diploma.local/shop/" class="btn btn--primary">Shop Now</a>
+        </div>
+
+        <div class="hero__image">
+          <img
+            src="assets/images/hero-home.png"
+            alt="Model in a tailored grey wool coat against a minimal white backdrop"
+            width="1280"
+            height="560"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted" aria-label="Featured collection">
+      <div class="container">
+        <header class="collection__header">
+          <h2 class="collection__title">Featured Collection</h2>
+          <p class="text-muted">Hand-picked pieces from this season's edit.</p>
+        </header>
+
+        <div class="collection__grid">
+          <a href="http://diploma.local/product/cream-linen-shirt/" class="product-card">
+            <div class="product-card__media">
+              <img
+                src="assets/images/featured-1.jpg"
+                alt="Cream Linen Shirt — relaxed-fit shirt in 100% Belgian linen"
+                loading="lazy"
+                width="480"
+                height="640"
+              />
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__name">Cream Linen Shirt</span>
+              <span class="product-card__price">€80</span>
+            </div>
+          </a>
+
+          <a href="http://diploma.local/product/long-wool-overcoat/" class="product-card">
+            <div class="product-card__media">
+              <img
+                src="assets/images/featured-3.jpg"
+                alt="Long Wool Overcoat — full-length single-breasted wool coat"
+                loading="lazy"
+                width="480"
+                height="640"
+              />
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__name">Long Wool Overcoat</span>
+              <span class="product-card__price">€380</span>
+            </div>
+          </a>
+
+          <a href="http://diploma.local/product/chunky-cable-cardigan/" class="product-card">
+            <div class="product-card__media">
+              <img
+                src="assets/images/featured-2.jpg"
+                alt="Chunky Cable Cardigan — heavy-gauge cable-knit cardigan"
+                loading="lazy"
+                width="480"
+                height="640"
+              />
+            </div>
+            <div class="product-card__body">
+              <span class="product-card__name">Chunky Cable Cardigan</span>
+              <span class="product-card__price">€245</span>
+            </div>
+          </a>
+        </div>
+
+        <div class="collection__cta-wrap">
+          <a href="http://diploma.local/shop/" class="btn btn--secondary">View All Products</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer" class="site-footer" role="contentinfo"></footer>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/search.js" defer></script>
+  <script src="assets/js/footer.js" defer></script>
+  <script src="assets/js/cookie-banner.js" defer></script>
+  <script src="assets/js/chatbot.js" defer></script>
+</body>
+</html>

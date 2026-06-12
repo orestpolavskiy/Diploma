@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Style guides and editorial content from BRANDED — care, fit, trends, and sustainable fashion." />
+  <title>Style Guides — BRANDED</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="../assets/css/tokens.css" />
+  <link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+<body>
+
+  <a class="skip-to-content" href="#site-content">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container site-header__inner">
+      <a href="../index.html" class="site-header__logo" aria-label="BRANDED — home">
+        <span class="site-header__logo-mark" aria-hidden="true"></span>
+        <span>FASHION</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="http://diploma.local/shop/" class="site-nav__link">Shop</a>
+        <a href="about.html"   class="site-nav__link">About</a>
+        <a href="guides.html"  class="site-nav__link" aria-current="page">Guides</a>
+        <a href="contact.html" class="site-nav__link">Contact</a>
+      </nav>
+      <div class="site-header__actions">
+        <button class="icon-btn" aria-label="Search">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg>
+        </button>
+        <a href="http://diploma.local/my-account/" class="icon-btn" aria-label="Account">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7" stroke-linecap="round"/></svg>
+        </a>
+        <a href="http://diploma.local/cart/" class="icon-btn" aria-label="Cart">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M5 7h14l-1.5 12a2 2 0 0 1-2 1.8h-7a2 2 0 0 1-2-1.8L5 7Z" stroke-linejoin="round"/><path d="M9 7V5a3 3 0 1 1 6 0v2" stroke-linecap="round"/></svg>
+        </a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="menu-toggle__bars" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+    <div class="promo-bar" role="note">
+      Free shipping on orders over €150 — Free returns within 30 days
+    </div>
+  </header>
+
+  <main id="site-content">
+
+    <section class="section">
+      <div class="container">
+        <h1>Style Guides</h1>
+        <p class="mt-m" style="max-width:600px">
+          Editorial content for thoughtful dressing. Fabric care, fit advice,
+          and seasonal trends — all written in-house.
+        </p>
+      </div>
+    </section>
+
+    <hr class="divider container" style="max-width: var(--container-max);" />
+
+    <section class="section">
+      <div class="container">
+        <div class="featured-guide">
+          <div class="featured-guide__media">
+            <img
+              src="../assets/images/guide-featured.png"
+              alt="Layered autumn outfit — linen shirt under a fine-knit pullover, finished with a structured coat"
+              width="600"
+              height="450"
+            />
+          </div>
+          <div class="featured-guide__body">
+            <span class="eyebrow">Featured Guide</span>
+            <h2>Transitional Dressing</h2>
+            <p>
+              How to move between seasons without buying anything new. We look
+              at layering order, fabric weights, and the three pieces that do
+              the most work from September through to December.
+            </p>
+            <a href="guides/transitional-dressing.html" class="btn btn--primary">Read Guide</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--muted">
+      <div class="container">
+        <h2 style="margin-bottom: var(--space-xl)">All Guides</h2>
+
+        <div class="guides-grid">
+          <a class="guide-card" href="guides/care-natural-fibres.html">
+            <div class="guide-card__media">
+              <img
+                src="../assets/images/guide-care.png"
+                alt="Neatly folded cashmere and wool knitwear stacked on a white shelf"
+                loading="lazy"
+                width="480"
+                height="360"
+              />
+            </div>
+            <div class="guide-card__body">
+              <span class="guide-card__category">Care Guide</span>
+              <h3 class="guide-card__title">How to Care for Natural Fibres</h3>
+              <p class="guide-card__text">Wool, cashmere, linen — washing, drying, and storing them correctly so they last years, not seasons.</p>
+              <span class="guide-card__link">Read More →</span>
+            </div>
+          </a>
+
+          <a class="guide-card" href="guides/tonal-wardrobe.html">
+            <div class="guide-card__media">
+              <img
+                src="../assets/images/guide-color.png"
+                alt="A tonal wardrobe palette laid flat — ivory, camel, charcoal, and navy pieces"
+                loading="lazy"
+                width="480"
+                height="360"
+              />
+            </div>
+            <div class="guide-card__body">
+              <span class="guide-card__category">Style Guide</span>
+              <h3 class="guide-card__title">Building a Tonal Wardrobe</h3>
+              <p class="guide-card__text">How a narrow colour palette makes every morning easier and every outfit more considered.</p>
+              <span class="guide-card__link">Read More →</span>
+            </div>
+          </a>
+
+          <a class="guide-card" href="guides/finding-fit.html">
+            <div class="guide-card__media">
+              <img
+                src="../assets/images/guide-fit.png"
+                alt="A tailor adjusting the sleeve length of a structured blazer on a fitting model"
+                loading="lazy"
+                width="480"
+                height="360"
+              />
+            </div>
+            <div class="guide-card__body">
+              <span class="guide-card__category">Fit Guide</span>
+              <h3 class="guide-card__title">Finding Your Fit</h3>
+              <p class="guide-card__text">How to read our size guide, where each cut lands on the body, and when to size up or down.</p>
+              <span class="guide-card__link">Read More →</span>
+            </div>
+          </a>
+
+          <a class="guide-card" href="guides/this-season.html">
+            <div class="guide-card__media">
+              <img
+                src="../assets/images/guide-featured.png"
+                alt="Minimal outfit details — clean tailoring and considered accessories for everyday wear"
+                loading="lazy"
+                width="480"
+                height="360"
+              />
+            </div>
+            <div class="guide-card__body">
+              <span class="guide-card__category">Trend Edit</span>
+              <h3 class="guide-card__title">What We Are Wearing This Season</h3>
+              <p class="guide-card__text">Quiet tailoring, relaxed trousers, and why the most versatile colour is still a good grey.</p>
+              <span class="guide-card__link">Read More →</span>
+            </div>
+          </a>
+
+          <a class="guide-card" href="guides/buying-less.html">
+            <div class="guide-card__media">
+              <img
+                src="../assets/images/guide-sustainability.png"
+                alt="A rail of carefully chosen garments in a minimal, well-organised wardrobe"
+                loading="lazy"
+                width="480"
+                height="360"
+              />
+            </div>
+            <div class="guide-card__body">
+              <span class="guide-card__category">Sustainability</span>
+              <h3 class="guide-card__title">Buying Less, Choosing Better</h3>
+              <p class="guide-card__text">A practical approach to reducing wardrobe waste — from asking the right questions before you buy to caring for what you already own.</p>
+              <span class="guide-card__link">Read More →</span>
+            </div>
+          </a>
+
+          <a class="guide-card" href="guides/capsule-wardrobe.html">
+            <div class="guide-card__media">
+              <img
+                src="../assets/images/guide-fit.png"
+                alt="A selection of essential wardrobe pieces — coat, trousers, knitwear, and a white shirt"
+                loading="lazy"
+                width="480"
+                height="360"
+              />
+            </div>
+            <div class="guide-card__body">
+              <span class="guide-card__category">Wardrobe Basics</span>
+              <h3 class="guide-card__title">The Capsule Wardrobe</h3>
+              <p class="guide-card__text">Ten pieces that cover almost every occasion. How to choose them, what to look for, and what to skip.</p>
+              <span class="guide-card__link">Read More →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="site-footer" class="site-footer" role="contentinfo"></footer>
+
+  <script src="../assets/js/main.js" defer></script>
+  <script src="../assets/js/search.js" defer></script>
+  <script src="../assets/js/footer.js" defer></script>
+  <script src="../assets/js/cookie-banner.js" defer></script>
+  <script src="../assets/js/chatbot.js" defer></script>
+</body>
+</html>

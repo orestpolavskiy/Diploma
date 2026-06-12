@@ -1,0 +1,18 @@
+# Local dev tools
+.claude/
+*.zip
+*.rar
+*.tar.gz
+
+# Local by Flywheel (app binaries — not project code)
+Wordpress/Local/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/settings.json
+*.swp
+*~
